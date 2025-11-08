@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with auto-ban and ticket system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "bot": "node index.js",
+    "server": "node oauth-server.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": ["discord", "bot"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
